@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rojo"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Azul"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#FF1100" />
+
+    <LinearLayout
+        android:id="@+id/layoutCircle"
+        android:layout_width="123dp"
+        android:layout_height="130dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#2196F3"
+        android:orientation="horizontal"></LinearLayout>
+</FrameLayout>
