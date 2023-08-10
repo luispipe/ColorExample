@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#555151"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -36,7 +37,7 @@
         android:layout_height="136dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="150dp"
-        android:backgroundTint="#FF1100" />
+        android:backgroundTint="#837B7B" />
 
     <LinearLayout
         android:id="@+id/layoutCircle"
@@ -46,6 +47,6 @@
         android:layout_marginTop="150dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/shape"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#949090"
         android:orientation="horizontal"></LinearLayout>
 </FrameLayout>
